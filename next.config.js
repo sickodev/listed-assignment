@@ -1,4 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    images: {
+        domains: ["api.dicebear.com"],
+        dangerouslyAllowSVG: true,
+    },
+    experimental: {
+        appDir: true,
+    },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
