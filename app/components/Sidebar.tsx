@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import Link from "next/link";
 import {
     CalendarIcon,
@@ -10,7 +11,10 @@ import {
 
 const Sidebar = () => {
     return (
-        <div className='z-30 h-full sticky basis-1/3 md:basis-1/6 shadow-md w-[230px] md:w-[250px] bg-black text-white flex items-center justify-center flex-col text-center rounded-[15px]'>
+        <div
+            className='z-30 top-0 hidden sticky md:basis-1/6 shadow-md md:w-[250px] bg-black text-white
+         md:flex items-center justify-center flex-row md:flex-col text-center rounded-[15px]'
+        >
             <div className='py-4 mt-12 w-full'>
                 <h2 className='text-3xl mx-10 font-bold text-left'>Board.</h2>
             </div>

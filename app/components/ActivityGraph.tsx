@@ -44,8 +44,8 @@ const ActivityGraph = () => {
                 </div>
                 <div className='md:w-full my-3'>
                     <ResponsiveContainer
-                        width={"100%"}
                         minWidth={200}
+                        width={"100%"}
                         height={200}
                     >
                         <LineChart

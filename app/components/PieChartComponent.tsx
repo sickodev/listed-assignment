@@ -21,7 +21,7 @@ const PieChartComponent = () => {
                     <ChevronDownIcon className='h-4 w-4 text-slate-500/50' />
                 </div>
             </div>
-            <div className='flex items-center justify-between rounded-[20px]'>
+            <div className='flex flex-col md:flex-row items-center justify-between rounded-[20px]'>
                 <div>
                     <PieChart width={200} height={200}>
                         <Pie
