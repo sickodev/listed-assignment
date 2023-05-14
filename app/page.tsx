@@ -20,7 +20,9 @@ export default function Home() {
     return (
         <main className='my-4 mx-8 max-w-full'>
             <div className='flex gap-x-6 flex-col sm:flex-row'>
-                <Sidebar />
+                <div>
+                    <Sidebar />
+                </div>
                 <SidebarM />
                 <div className='flex flex-col basis-1 md:basis-5/6'>
                     <Navbar />

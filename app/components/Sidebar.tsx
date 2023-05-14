@@ -12,10 +12,10 @@ import {
 const Sidebar = () => {
     return (
         <div
-            className='z-30 top-0 hidden sticky md:basis-1/6 shadow-md md:w-[250px] bg-black text-white
-         md:flex items-center justify-center flex-row md:flex-col text-center rounded-[15px]'
+            className='z-30 my-auto top-0 hidden sticky shadow-md md:w-[250px] bg-black text-white
+         md:flex items-center justify-center flex-col text-center rounded-[15px]'
         >
-            <div className='py-4 mt-12 w-full'>
+            <div className='py-2 mt-6 w-full'>
                 <h2 className='text-3xl mx-10 font-bold text-left'>Board.</h2>
             </div>
             <div className='w-full flex flex-col justify-center gap-x-2 mx-auto my-8 px-10 text-md'>
