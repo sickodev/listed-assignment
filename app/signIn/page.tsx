@@ -30,11 +30,7 @@ const Page = (props: Props) => {
                 </div>
                 <div className='flex items-center justify-between my-2 py-4 gap-2'>
                     <button
-                        onClick={() =>
-                            signIn("google", {
-                                callbackUrl: "http://localhost:3000",
-                            })
-                        }
+                        onClick={() => signIn("google", {})}
                         className='rounded-md bg-white p-2 flex items-center gap-2 transition-all duration-200 ease-out active:scale-95'
                     >
                         <img
