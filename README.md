@@ -1,34 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Listed Assignment
 
-## Getting Started
+A dashboard with authentication.
 
-First, run the development server:
+## Description
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+This project is a web-based dashboard that provides an interactive user interface with authentication functionality and dynamic data. The dashboard allows users to access personalized information, visualize data, and perform various actions. Done as part of the assignment given by Listed. This project can be viewed from the demo link [here](https://listed-assignment-five.vercel.app/).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- User authentication: Users can sign up, log in, and securely access the dashboard.
+- Interactive user interface: The dashboard provides an intuitive and user-friendly interface for easy navigation and data interaction.
+- Data manipulation: Users can perform actions such as filtering, sorting, and exporting data based on their privileges.
+- Customization: The dashboard supports customization options, allowing users to personalize their view and preferences.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies Used
 
-## Learn More
+- Front-end: HTML, CSS, JavaScript, React
+- Back-end: TypeScript
+- Authentication: Google Auth
+- Data Visualization: Recharts
 
-To learn more about Next.js, take a look at the following resources:
+## Tasks done
+1. Made the design of the app as close as possible to the design.
+2. Used media queries to make the app responsive for different screen sizes.
+3. [Bonus] Added authentication using [NextAuth](https://next-auth.js.org/).
+4. Implemented custom profile image based on user using [dicebear](https://www.dicebear.com/).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Clone the repository: `git clone [repository URL]`
+2. Navigate to the project directory: `cd project-directory`
+3. Install dependencies: `npm install`
+4. Set up the necessary configurations for authentication, database connection, and external data sources.
+5. Start the application: `npm start`
 
-## Deploy on Vercel
+## Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Sign up for a new account or log in with existing credentials.
+2. Explore the dashboard interface and navigate through different sections.
+3. Log out by clicking on the avatar to securely exit the dashboard.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature-name`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature/your-feature-name`
+5. Submit a pull request.
+
+Please ensure that your contributions align with the project's coding conventions, guidelines, and follow best practices.
+
+
+## Contact
+
+If you have any questions, suggestions, or feedback, please feel free to contact me at kalyanbishwa03@gmail.com.
