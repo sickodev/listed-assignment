@@ -38,7 +38,7 @@ This project is a web-based dashboard that provides an interactive user interfac
 
 1. Sign up for a new account or log in with existing credentials.
 2. Explore the dashboard interface and navigate through different sections.
-3. Log out to securely exit the dashboard.
+3. Log out by clicking on the avatar to securely exit the dashboard.
 
 ## Contributing
 
