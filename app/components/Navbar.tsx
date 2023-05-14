@@ -1,6 +1,7 @@
 import { BellIcon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 import React from "react";
 import Image from "next/image";
+import LoginButton from "./LoginButton";
 
 const Navbar = () => {
     return (
@@ -19,14 +20,7 @@ const Navbar = () => {
                 </div>
                 <div className='flex items-center justify-between gap-6 h-full'>
                     <BellIcon className='h-5 w-5 cursor-pointer' />
-                    <Image
-                        src='https://api.dicebear.com/6.x/notionists/svg?seed=Bubba'
-                        alt=''
-                        style={{ objectFit: "cover" }}
-                        height={40}
-                        width={40}
-                        className='rounded-full border-[1px] border-white cursor-pointer hover:shadow-md'
-                    />
+                    <LoginButton />
                 </div>
             </div>
         </div>
