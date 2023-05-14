@@ -1,6 +1,6 @@
-# Project Name
+# Listed Assignment
 
-Listed Assignment
+A dashboard with authentication.
 
 ## Description
 
@@ -19,6 +19,12 @@ This project is a web-based dashboard that provides an interactive user interfac
 - Back-end: TypeScript
 - Authentication: Google Auth
 - Data Visualization: Recharts
+
+## Tasks done
+1. Made the design of the app as close as possible to the design.
+2. Used media queries to make the app responsive for different screen sizes.
+3. [Bonus] Added authentication using [NextAuth](https://next-auth.js.org/).
+4. Implemented custom profile image based on user using [dicebear](https://www.dicebear.com/).
 
 ## Installation
 
