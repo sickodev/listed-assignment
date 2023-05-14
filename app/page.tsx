@@ -55,7 +55,7 @@ export default function Home() {
                     {/* Small Screens */}
                     <div className='py-6 my-2'>
                         <Carousel
-                            className='md:hidden py-4'
+                            className='md:hidden my-4'
                             transition={{ ease: "easeOut", duration: 0.5 }}
                             prevArrow={({ handlePrev }) => (
                                 <IconButton
