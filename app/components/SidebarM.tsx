@@ -38,7 +38,11 @@ const SidebarM = () => {
                 </button>
             </div>
             {showMenu && (
-                <div className='w-full flex-col flex justify-center gap-x-2 mx-auto my-2 p-4 text-md'>
+                <div
+                    className={`transition-all ease-out duration-500 ${
+                        showMenu ? "h-auto opacity-100" : "h-0 opacity-0"
+                    } flex-col flex justify-center gap-x-2 mx-auto my-2 p-4 text-md`}
+                >
                     <div className='px-4 text-lg'>
                         <Link
                             href={"/"}
@@ -81,9 +85,8 @@ const SidebarM = () => {
                         </Link>
                     </div>
 
-                    <div className='flex items-center justify-between'>
-                        <div className='basis-1/2'></div>
-                        <div className=' mx-12 px-4 w-[160px] text-left my-1 text-gray-500/50'>
+                    <div className=''>
+                        <div className='mx-4 text-left my-1 text-gray-500/50'>
                             <Link href={"/"} className='hover:font-semibold'>
                                 <h3>Help</h3>
                             </Link>

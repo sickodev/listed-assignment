@@ -16,13 +16,13 @@ const Page = (props: Props) => {
     };
     return (
         <div className='flex items-center gap-4'>
-            <div className='flex items-center justify-evenly bg-black w-[300px] md:w-[500px] h-screen'>
+            <div className='md:flex hidden items-center justify-evenly bg-black w-[300px] md:w-[500px] h-screen'>
                 <h1 className='text-white text-center text-7xl font-bold'>
                     Board.
                 </h1>
             </div>
             <div className=' mx-auto my-4 p-6 rounded-2xl'>
-                <div>
+                <div className='text-center md:text-left'>
                     <h2 className='text-[36px] font-bold'>Sign In</h2>
                     <h4 className={`${lato.className} text-[16px]`}>
                         Sign in to your account
@@ -30,11 +30,7 @@ const Page = (props: Props) => {
                 </div>
                 <div className='flex items-center justify-between my-2 py-4 gap-2'>
                     <button
-                        onClick={() =>
-                            signIn("google", {
-                                callbackUrl: "http://localhost:3000",
-                            })
-                        }
+                        onClick={() => signIn("google", {})}
                         className='rounded-md bg-white p-2 flex items-center gap-2 transition-all duration-200 ease-out active:scale-95'
                     >
                         <img
