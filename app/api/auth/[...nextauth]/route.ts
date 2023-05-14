@@ -17,11 +17,6 @@ const authOptions: NextAuthOptions = {
     pages: {
         signIn: "/signIn",
     },
-    callbacks: {
-        async redirect() {
-            return "/";
-        },
-    },
 };
 
 const handler = NextAuth(authOptions);
