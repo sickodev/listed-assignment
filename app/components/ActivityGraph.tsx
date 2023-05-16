@@ -39,8 +39,8 @@ const ActivityGraph = () => {
             <div>
                 <h3 className='font-bold text-xl'>Activities</h3>
                 <div className='flex items-center'>
-                    <p className='pr-3 text-slate-500/50'>May-Jun</p>
-                    <ChevronDownIcon className='h-4 w-4 text-slate-500/50' />
+                    <p className='pr-3 text-gray-500'>May-Jun</p>
+                    <ChevronDownIcon className='h-4 w-4 text-gray-500' />
                 </div>
                 <div className='md:w-full my-3'>
                     <ResponsiveContainer

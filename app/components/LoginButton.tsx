@@ -18,7 +18,7 @@ const LoginButton = () => {
                         style={{ objectFit: "cover" }}
                         height={40}
                         width={40}
-                        className='rounded-full border-[1px] border-white cursor-pointer hover:shadow-md'
+                        className='rounded-full border-2 border-white cursor-pointer hover:shadow-lg'
                     />
                 </button>
             </>
@@ -26,7 +26,13 @@ const LoginButton = () => {
     }
     return (
         <>
-            <button onClick={() => signIn()}>Sign In</button>
+            <button
+                onClick={() => signIn()}
+                className='bg-black text-white px-2 py-1 rounded-[10px] border-2 transition-all duration-200 ease-in
+                hover:shadow-xl active:scale-90'
+            >
+                <p>Sign In</p>
+            </button>
         </>
     );
 };

@@ -12,8 +12,8 @@ const Tasks = () => {
                     Today's Schedule
                 </h3>
                 <div className='flex items-center'>
-                    <p className='pr-3 text-slate-500/50'>See All</p>
-                    <ChevronRightIcon className='h-4 w-4 text-slate-500/50' />
+                    <p className='pr-3 text-gray-500'>See All</p>
+                    <ChevronRightIcon className='h-4 w-4 text-gray-500' />
                 </div>
             </div>
             <div className='flex items-center flex-col my-2 mx-12'>
@@ -21,10 +21,8 @@ const Tasks = () => {
                     <div className='w-1 rounded-l-md max-h-full bg-[#9BDD7C]'></div>
                     <div className={`${lato.className}`}>
                         <h3 className='text-md'>Meeting with suppliers</h3>
-                        <p className='text-sm text-slate-500/50'>
-                            14:00 - 15:00
-                        </p>
-                        <p className='text-sm text-slate-500/50'>
+                        <p className='text-sm text-gray-500'>14:00 - 15:00</p>
+                        <p className='text-sm text-gray-500'>
                             at Sunset Road, Kuta, Bali
                         </p>
                     </div>
@@ -35,20 +33,16 @@ const Tasks = () => {
                         <h3 className='text-md'>
                             Check operations at Giga Factory 1
                         </h3>
-                        <p className='text-sm text-slate-500/50'>
-                            18:00 - 20:00
-                        </p>
-                        <p className='text-sm text-slate-500/50'>at Jakarta</p>
+                        <p className='text-sm text-gray-500'>18:00 - 20:00</p>
+                        <p className='text-sm text-gray-500'>at Jakarta</p>
                     </div>
                 </div>
                 <div className='py-3 cursor-pointer flex w-full gap-3 rounded-[20px] active:scale-95 transition-all duration-200 ease-out'>
                     <div className='w-1 rounded-l-md max-h-full bg-[#004fff]'></div>
                     <div className={`${lato.className}`}>
                         <h3 className='text-md'>Check delivery of goods</h3>
-                        <p className='text-sm text-slate-500/50'>
-                            21:00 - 22:00
-                        </p>
-                        <p className='text-sm text-slate-500/50'>at Jakarta</p>
+                        <p className='text-sm text-gray-500'>21:00 - 22:00</p>
+                        <p className='text-sm text-gray-500'>at Jakarta</p>
                     </div>
                 </div>
             </div>

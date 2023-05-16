@@ -17,8 +17,8 @@ const PieChartComponent = () => {
             <div className='flex items-center justify-between'>
                 <h3 className='text-xl font-bold'>Top Products</h3>
                 <div className='flex items-center'>
-                    <p className='pr-3 text-slate-500/50'>May-Jun</p>
-                    <ChevronDownIcon className='h-4 w-4 text-slate-500/50' />
+                    <p className='pr-3 text-gray-500'>May-Jun</p>
+                    <ChevronDownIcon className='h-4 w-4 text-gray-500' />
                 </div>
             </div>
             <div className='flex flex-col md:flex-row items-center justify-between rounded-[20px]'>
@@ -48,7 +48,7 @@ const PieChartComponent = () => {
                         <div className='h-2 w-2 rounded-full mb-5 bg-[#98D89E]'></div>
                         <div>
                             <h3 className='font-bold text-lg'>Basic Tees</h3>
-                            <p className='text-sm text-slate-500/50'>55%</p>
+                            <p className='text-sm text-gray-500'>55%</p>
                         </div>
                     </div>
                     <div className='flex gap-2 items-center'>
@@ -57,14 +57,14 @@ const PieChartComponent = () => {
                             <h3 className='font-bold text-lg'>
                                 Custom Short Pants
                             </h3>
-                            <p className='text-sm text-slate-500/50'>31%</p>
+                            <p className='text-sm text-gray-500'>31%</p>
                         </div>
                     </div>
                     <div className='flex gap-2 items-center'>
                         <div className='h-2 w-2 rounded-full mb-5 bg-[#EE8484]'></div>
                         <div>
                             <h3 className='font-bold text-lg'>Super Hoodies</h3>
-                            <p className='text-sm text-slate-500/50'>14%</p>
+                            <p className='text-sm text-gray-500'>14%</p>
                         </div>
                     </div>
                 </div>
