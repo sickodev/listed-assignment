@@ -15,8 +15,19 @@ import PieChartComponent from "./components/PieChartComponent";
 import Tasks from "./components/Tasks";
 import { Carousel, IconButton } from "@material-tailwind/react";
 import SidebarM from "./components/SidebarM";
+import { useSession } from "next-auth/react";
+import { useRouter } from "next/navigation";
+import { useEffect } from "react";
 
 export default function Home() {
+    const { data: session, status } = useSession();
+    const router = useRouter();
+
+    useEffect(() => {
+        if (status === "unauthenticated") {
+            router.push("/signIn");
+        }
+    }, [session]);
     return (
         <main className='my-4 mx-8 max-w-full'>
             <div className='flex gap-x-6 flex-col sm:flex-row'>
